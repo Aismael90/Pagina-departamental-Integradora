@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Contacto - Integradora</title>
+<style>
+    .contact{
+        padding: 50px 500px;
+    }
+    label{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+    .enviar{
+        background-color: rgb(148, 209, 224);
+        color: black;
+    }
+    .borrar{
+        background-color: rgb(255, 191, 191);
+        color: black;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="imagenes/Logo Actividad integradora.png" alt="Logotipo de Integradora">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre nosotros</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="login">
+        <a href="login.html"><img src="https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png" alt="Iniciar sesión"></a>
+    </div>
+</header>
+
+<main>
+    <section class="contact">
+        <h1>Contacto</h1>
+        <h4>Queremos saber tu opinion</h4>
+        <form class="formato">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="numero-contacto">Numero de contacto</label>
+            <input type="number" required>
+            <br>
+            <label for="residencia">Lugar de residencia</label>
+            <input type="text" name="residencia" id="residencia" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" style="height: 150px" name="mensaje" required></textarea>
+            <br>
+            <input class="enviar" type="submit" value="Enviar">
+            <input class="borrar" type="reset" value="Borrar">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Integradora. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

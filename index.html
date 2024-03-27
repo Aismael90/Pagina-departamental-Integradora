@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Integradora - Página Principal</title>
+<style>
+    
+    .container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        padding: 50px 550px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="imagenes/Logo Actividad integradora.png" alt="Logotipo de Integradora">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre nosotros</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="login">
+        <a href="login.html"><img src="https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png" alt="Iniciar sesión"></a>
+    </div>
+</header>
+
+<main>
+    <section class="intro">
+        <h1>Encuentra todo lo necesario para equipar tu oficina</h1>
+        <form class="search-store">
+            <div class="container">
+                <h2>Localiza tu tienda</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="estado">Estado de la República:</label>
+                        <input type="text" id="estado" name="estado" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ciudad">Ciudad o Municipio:</label>
+                        <input type="text" id="ciudad" name="ciudad" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="codigo-postal">Código Postal:</label>
+                        <input type="text" id="codigo-postal" name="codigo-postal" required>
+                    </div>
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Integradora. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
